@@ -24,10 +24,15 @@ Python_GUI_Compare_Tool is an open-source Tkinter-based GUI for Python's `diffli
 - Tkinter library
 
 ### Clone the Repository
+
 git clone https://github.com/petrunetworking/Python_GUI_Compare_Tool.git
+
 cd Python_GUI_Compare_Tool
+
 Install Dependencies
+
 You can install required dependencies using pip:
+
 If you don't have tkinter, install it using:
 
 # Ubuntu/Debian
@@ -40,19 +45,23 @@ brew install python-tk
 ### Running the Application
 
 You can run the application directly from the command line:
-You can run the application directly from the command line:
-python3 Python_GUI_Compare_Tool.py
+
+    python3 Python_GUI_Compare_Tool.py
+  
 Opening the GUI
+
 Upon running the script, the Python_GUI_Compare_Tool GUI will open. You can then select files or directories for comparison using the menu or buttons.
 
-Example
+### Example
+
 Compare Files: Click on the "File" menu and select "Compare Files." Choose two files to compare.
-[menu_open_file](../Python_GUI_Compare_Tool/screenshot).png
+![menu_open_file](screenshot/menu_open_file.png)
 Compare Directories: Click on the "File" menu and select "Compare Directories." Choose two directories to compare their contents.
-[dir_compare](../Python_GUI_Compare_Tool/screenshot)
+![dir_compare](screenshot/dir_compare.png)
 Switch Diff Methods: Use the diff method options to change between side-by-side, inline, diff-only, and complete file views.
-[switch_method_compare](../Python_GUI_Compare_Tool/screenshot)
+![switch_method_compare](screenshot/switch_method_compare.png)
 Search Text: Use the search bar to find specific text within the files.
+
 
 ## Code Structure
 
